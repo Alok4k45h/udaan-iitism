@@ -1,0 +1,17 @@
+.event-section {
+  background-color: #f9fbfe;
+}
+.event-section-img {
+  width: 270px;
+}
+.event-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.event-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}

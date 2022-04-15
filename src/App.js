@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+//importing all pages
+import Home from "./Pages/Home";
+import InternPage from "./Pages/InternPage";
+import PlacementPage from "./Pages/PlacementPage";
+
+// importing components
+import Navbars from "./Components/GlobalComponent/Navbar/Navbar";
+import ScrollToTop from "./Components/GlobalComponent/ScrollToTop/ScrollToTop";
+import Footer from "./Components/GlobalComponent/Footer/Footer";
+import ContactSection from "./Components/GlobalComponent/ContactSection/ContactSection";
+import TestimonialSection from "./Components/GlobalComponent/TestimonialSection/TestimonialSection";
+
+//importing all css
+import "./App.css";
+import PlacementDetailedPage from "./Pages/PlacementDetailedPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <ScrollToTop />
+        <Navbars />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/intern" element={<InternPage />} />
+          <Route path="/placement" element={<PlacementPage />} />
+          <Route
+            path="/placement/placementdetailed"
+            element={<PlacementDetailedPage />}
+          />
+        </Routes>
+        <ContactSection />
+        <TestimonialSection />
+        <Footer />
+      </Router>
     </div>
   );
 }

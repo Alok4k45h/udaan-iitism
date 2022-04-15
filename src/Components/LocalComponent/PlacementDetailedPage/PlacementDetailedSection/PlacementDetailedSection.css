@@ -1,0 +1,25 @@
+.about-me-section {
+  background-image: url("https://cdn.wallpapersafari.com/39/38/rmLTAJ.jpg");
+
+  background-size: cover;
+}
+.about-me-section-sub-heading {
+  color: #cced00;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+}
+.about-me-section-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: bold;
+}
+.about-me-section-description {
+  color: #9aa5b1;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.about-me-section-image {
+  width: 80%;
+}

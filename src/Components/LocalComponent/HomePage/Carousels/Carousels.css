@@ -1,0 +1,16 @@
+.banner-container {
+  background-color: #22356a;
+  height: 100vh;
+  background-size: cover;
+}
+
+.carousel-container {
+  height: 100vh;
+  background-size: cover;
+}
+
+.carousel-image {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}

@@ -1,0 +1,14 @@
+.contact-us-section {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+  background-size: cover;
+}
+.contact-us-section-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contact-us-section-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+}

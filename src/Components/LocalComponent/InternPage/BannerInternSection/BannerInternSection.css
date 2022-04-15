@@ -1,0 +1,15 @@
+.banner-intern-section {
+  background-image: url("https://dynamic.placementindia.com/blog_images/20210330112333_image1.jpg");
+  background-size: cover;
+  height: 40vh;
+}
+.banner-intern-section-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.banner-intern-section-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+}

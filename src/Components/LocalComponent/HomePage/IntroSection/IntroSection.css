@@ -1,0 +1,24 @@
+.intro-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.intro-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.aim-container {
+  max-height: 360px;
+  overflow-y: auto;
+  overflow-x: none;
+}
+
+.vision-container {
+  max-height: 360px;
+  overflow-y: auto;
+  overflow-x: none;
+}
